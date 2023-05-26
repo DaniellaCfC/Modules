@@ -1,0 +1,4 @@
+import math
+numero=int(input('Informe o numero a ser calculado a raiz:'))
+raiz=math.sqrt(numero)
+print(f'A raiz do numero digitado é: {raiz}')
