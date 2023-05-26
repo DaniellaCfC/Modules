@@ -1,4 +1,6 @@
 import math
 numero=int(input('Informe o numero a ser calculado a raiz:'))
-raiz=math.sqrt(numero)
-print(f'A raiz do numero digitado é: {raiz}')
+raiz=math.sqrt (numero)
+#solicitei a raiz quadrada com a função math.sqrt
+print(f'A raiz do numero digitado é: {math.ceil(raiz)}')
+#math.ceil -> solicitei que a raiz resultante fosse arredondada para cima com a função ceil
