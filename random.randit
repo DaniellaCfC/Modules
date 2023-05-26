@@ -1,0 +1,5 @@
+import random
+num=random.randint(1,10)
+print(num)
+
+#nesse caso criamos o numero aleatorio entre 1 e 10 inteiro
