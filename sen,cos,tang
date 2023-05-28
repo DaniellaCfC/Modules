@@ -1,0 +1,6 @@
+'''faça um programa que leia um angulo qualquer e mostre na tela o calor de seno cosseno e tangente desse angulo'''
+import math
+ang=float(input('Informe o angulo a ser calculado: '))
+rad=math.radians(ang)
+
+print(f'O valor de seno sera de {math.sin(rad)},  cosseno sera de {math.cos(rad)},E a tangente de {math.tan(rad):}')
