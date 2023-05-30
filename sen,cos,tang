@@ -3,4 +3,4 @@ import math
 ang=float(input('Informe o angulo a ser calculado: '))
 rad=math.radians(ang)
 
-print(f'O valor de seno sera de {math.sin(rad)},  cosseno sera de {math.cos(rad)},E a tangente de {math.tan(rad):}')
+print(f'print(f'O angulo selecionado foi de : {angulo} \nSeu seno será: {math.sin(rad) :.2f} \nSeu cosseno: {math.cos(rad) :.2f} \nE a tangente: {math.tan(rad) :.2f}')
