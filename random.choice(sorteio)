@@ -1,0 +1,9 @@
+'''Um professor quer sortear um dos seus quatro alunos para receber um premio. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido'''
+import random
+aluno1=str(input('Informe o nome do 1° Aluno: '))
+aluno2=str(input('Informe o nome do 2° Aluno: '))
+aluno3=str(input('Informe o nome do 3° Aluno: '))
+aluno4=str(input('Informe o nome do 4° Aluno: '))
+list=[aluno1,aluno2,aluno3,aluno4]
+sorteio=random.choice(list)
+print(f'O aluno sorteado para receber o premio será {sorteio}.')
