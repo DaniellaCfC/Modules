@@ -1,0 +1,9 @@
+'''Um professor quer sortear  a ordem  de apresentação de trabalhos dos alunos, Faça um programa que leia o nome dos quatro alunos e mostre a ordem a ser sorteada'''
+import random
+aluno1=str(input('Informe o nome do primeiro Aluno: '))
+aluno2=str(input('Informe o nome do Segundo Aluno: '))
+aluno3=str(input('Informe o nome do Terceito Aluno: '))
+aluno4=str(input('Informe o nome do terceiro Aluno: '))
+list=[aluno1,aluno2,aluno3,aluno4]
+random.shuffle(list) #random.shuffle() >embaralha as opções da lista
+print(f'A ordem do sorteio será: {list}')
